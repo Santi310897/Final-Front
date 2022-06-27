@@ -292,7 +292,7 @@ form button {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 100%;
+        width: 95%;
         margin: auto;
         position: relative;
         top: 0px;
