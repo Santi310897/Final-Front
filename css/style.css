@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+body {
+    margin: 0%;
+}
+header {
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+    align-items: center;
+}
+header nav {
+    display: none;
+}
+
+.Get1 {
+    display: none;
+}
+
+/*main*/
+
+.Graficos {
+    width: 100%; 
+}
+.Principal {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+}
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #232C50;
+}
+.Parrafo1 {
+    font-weight: 500;
+    font-size: 16.56px;
+    color: #B3B2B7;
+}
+.Get1,.Get2,.Get3, .Get4 {
+    background-color: #F3603B;
+    width: 134px;
+    height: 44px;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+    border-radius: 50px;
+    border: none;
+    color: white;
+}
+h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    color: #232C50;
+    padding-top: 40px;
+}
+.Parrafo2 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #B3B2B7;
+    text-align: center;
+}
+
+.Pildora {
+    display: flex;
+    width: 70px;
+    height: 43px;
+    background: #F3603B;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    
+}
+.Listado div {
+    display: flex;
+    align-items: center;
+    height: 43px;
+    border-radius: 30px;
+    background-color: rgba(243, 96, 69, 0.15);
+    color: #323851;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 5px;
+}
+h4 {
+    margin-left: 10px;
+}
+.Listado p {
+    font-weight: 100px;
+    font-size: 16.2984px;
+    color: #B3B2B7;
+    margin-left: 10px;
+}
+p {
+    line-height: 26px;
+}
+.Perfiles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.PerfilOculto {
+    display: none;
+}
+.Carrusel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto 30px;
+    
+}
+.Carrusel a {
+    border-radius: 50%;
+    border: #F3603B solid 1px;
+    width: 2vw;
+    height: 2vw;
+    margin: 5px;
+}
+.Comentarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.SectionNaranja {
+    background-color: #F3603B;
+    color: white;
+    height: 350px;
+}
+.SectionNaranja h2{
+    color: white;
+    font-weight: 500;
+    width: 80%;
+}  
+.Get4 {
+    background-color: white ;
+    color: #F3603B;
+}
+.SectionNaranja span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer section {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1E1E26;
+    height: 500px;
+    position: relative;
+}
+.ListasFooter {
+    display: flex;
+}
+ul {
+    list-style: none;
+    flex-direction: row;
+}
+li {
+    margin-bottom: 25px;
+}
+ul li a {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400;
+    color:white;
+    text-decoration: none;
+    
+}
+form {
+    margin-top: 40px;
+}
+form input {
+    width: 201px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    border: none;
+    margin-top: 5px;
+}
+form button {
+    margin-left: 10px;
+    width: 63px;
+    height: 42px;
+    background: #F3603B;
+    border-radius: 50px;
+    border: none;
+    color: #FFFFFF;
+}
+.Iconos {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.Iconos div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 180%;
+}
+.DerechosAutor {
+    position: absolute;
+    bottom: 0px;
+    color: #B3B2B7;
+}
+
+@media (min-width:1440px) {
+    .Hamburguesa {
+        display: none;
+    }
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        margin-top: 15px;
+    }
+    .Get1 {
+        display: inline-block;
+    }
+    .Principal {
+        flex-direction: row;
+    }
+    .Articulo1 {
+        width: 50vw;
+        text-align: start;
+    }
+    .Articulo1 h1 {
+        width: 50%;
+        margin: 40px auto;
+    }
+    .Articulo1 p {
+        width: 50%;
+        margin:  40px auto;
+    }
+    .Get2 {
+        position: relative;
+        left: 175px;
+    }
+    .Section2{
+        display: flex;
+        flex-direction: row;
+    }
+    .Articulo2 {
+        width: 50vw;
+        margin: 30px 100px;
+        text-align: start;
+    }
+    .Listado {
+        width: 50vw;
+        margin: 20px auto;
+    }
+    .Listado div {
+        background-color: white;
+    }
+    .Articulo2 h2 {
+        padding: 0%;
+        text-align: start;
+    }
+    .Listado p {
+        margin: auto 90px;
+    }
+    .Carrusel a {
+        display: none;
+    }
+    .Comentarios {
+        margin: 130px auto;
+    }
+    .Comentarios div {
+        display: flex;
+        flex-direction: row;
+    }
+    .PerfilOculto {
+        display: flex;
+    }
+    .Perfiles, .PerfilOculto  {
+        width: 33vw;
+    }
+    .SectionNaranja span {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+        position: relative;
+        top: 0px;
+        align-items: center;
+    }
+    .SectionNaranja {
+        height: 280px;
+    }
+    .SectionNaranja span h2 {
+        width: 30%;
+    }
+    footer section {
+        justify-content: space-around;
+        flex-direction: row;
+        height: 300px;
+        width: 100%;
+    }
+    .Iconos {
+        flex-direction: column;
+        /* margin-left: 25px; */
+    }
+    .DivFooter {
+        margin-top: 100px;
+    }
+    .Iconos img {
+        width: 200px;
+    }
+    .DivFooter img {
+        width: 40px;
+    }
+    .DerechosAutor{
+        width: 20rem;
+    }
+    form {
+        position: relative;
+        bottom: 100px;
+    }
+        /* margin-right: 25px;
+    } */
+}
+    
